@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Assignment</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/script.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="background_img">
+            <div class="form">
+                <a href="login.html"><button class="login">&nbsp;&nbsp;Login&nbsp; &nbsp;</button></a>
+
+
+                <a href="/signUp.html"><button class="SignUp">&nbsp; &nbsp;SignUp&nbsp;&nbsp;</button></a>
+                <input class="search_bar" type="text" placeholder="Search.." />
+            </div>
+
+            <nav>
+                <div class="navbar">
+                    <h4><span>O</span>rder Your Favorite Food <span>Now..!</span></h4>
+                </div>
+            </nav>
+
+            <div class="button">
+
+
+                <button class="btn_1">
+                    <a href="/index.html"><b>&nbsp;Home&nbsp;</b></a>
+                </button>
+                <button class="btn_1">
+                    <a href="/menu.html"><b>&nbsp;Menu&nbsp;</b></a>
+                </button>
+                <button class="btn_2">
+                    <a href="/contact.html"><b>&nbsp;Contact Us&nbsp;</b></a>
+                </button>
+                <button class="btn_3">
+                    <a href="/about.html"><b>&nbsp;About Us&nbsp;</b></a>
+                </button>
+                <button class="btn_4" style="margin-left: 50px">
+                    <a href="/items.html"><b>&nbsp;Items&nbsp;</b></a>
+                </button>
+            </div>
+
+
+            <div class="menu_form">
+                <div class="menu_list">
+                    <table>
+                        <tr>
+                            <th>&nbsp;&nbsp;&nbsp;S.Number&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                            <th>&nbsp;Food Items&nbsp;&nbsp;&nbsp;</th>
+                            <th>&nbsp;Price&nbsp;&nbsp;&nbsp;</th>
+                            <th>&nbsp;&nbsp;Select&nbsp;&nbsp;</th>
+                            <th>&nbsp;&nbsp;Quantity&nbsp;&nbsp;</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Chai</td>
+                            <td>15/-</td>
+                            <td><input type="checkbox" id="chai" onchange="check()">
+                                <label for="chai"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td> Hot Coffee</td>
+                            <td>35/-</td>
+                            <td><input type="checkbox" id="hot_Coffee" onchange="check()">
+                                <label for="hot_Coffee"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Cold Coffee</td>
+                            <td>40/-</td>
+                            <td><input type="checkbox" id="cold_Coffee" onchange="check()">
+                                <label for="cold_Coffee"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Dark Chocolate Coffee </td>
+                            <td>60/-</td>
+                            <td><input type="checkbox" id="Dark_Chocolate_Coffee" onchange="check()">
+                                <label for="Dark_Chocolate_Coffee"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Paner Pizza</td>
+                            <td>199/-</td>
+                            <td><input type="checkbox" id="Paner_Pizza" onchange="check()">
+                                <label for="Paner_Pizza"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Cron Pizza</td>
+                            <td>158/-</td>
+                            <td><input type="checkbox" id="Cron_Pizza" onchange="check()">
+                                <label for="Cron_Pizza"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Veg Burger</td>
+                            <td>25/-</td>
+                            <td><input type="checkbox" id="Veg_Burger" onchange="check()">
+                                <label for="Veg_Burger"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td> Chole Bhature</td>
+                            <td>180/-</td>
+                            <td><input type="checkbox" id="Chole_Bhature" onchange="check()">
+                                <label for="Chole_Bhature"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Plain Roti</td>
+                            <td>8/-</td>
+                            <td><input type="checkbox" id="Plain_Roti" onchange="check()">
+                                <label for="Plain_Roti"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Butter Roti</td>
+                            <td>12/-</td>
+                            <td><input type="checkbox" id="Butter_Roti" onchange="check()">
+                                <label for="Butter_Roti"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Sahi Paneer</td>
+                            <td>150/-</td>
+                            <td><input type="checkbox" id="Sahi_Paneer" onchange="check()">
+                                <label for="Sahi_Paneer"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Kadhai Paneer</td>
+                            <td>140/-</td>
+                            <td><input type="checkbox" id="Kadhai_Paneer" onchange="check()">
+                                <label for="Kadhai_Paneer"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td> Rayeta</td>
+                            <td>15/-</td>
+                            <td><input type="checkbox" id="Rayeta" onchange="check()">
+                                <label for="Rayeta"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td> Momos</td>
+                            <td>50/-</td>
+                            <td><input type="checkbox" id="Momos" onchange="check()">
+                                <label for="Momos"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td> Fried momos</td>
+                            <td>60/-</td>
+                            <td><input type="checkbox" id="Fried_momos" onchange="check()">
+                                <label for="Fried_momos"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td> Sandwich</td>
+                            <td>25/-</td>
+                            <td><input type="checkbox" id="Sandwich" onchange="check()">
+                                <label for="Sandwich"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td> Noodles</td>
+                            <td>30/-</td>
+                            <td><input type="checkbox" id="Noodles" onchange="check()">
+                                <label for="Noodles"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td>Gulab Jamun</td>
+                            <td>80/-</td>
+                            <td><input type="checkbox" id="Gulab-jamun" onchange="check()">
+                                <label for="Gulab-jamun"></label><br>
+                            </td>
+                            <td> <button style="width:20px ;">-</button> <button style="width:20px ;">+</button> </td>
+
+
+
+
+
+                    </table>
+                    <table>
+                        <tr>
+                            <td>Total Amount</td>
+                            <td id="total"></td>
+                        </tr>
+                    </table>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
